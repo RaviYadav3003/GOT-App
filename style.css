@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+}
+
+header {
+  padding: 2rem;
+  text-align: center;
+  border: 10px rgb(54, 17, 175) solid;
+  background-color: rgb(54, 17, 175);
+  color: aliceblue;
+}
+
+.translateContainer {
+  /* display: flex;
+  justify-content: center; */
+}
+
+.translateButton {
+  display: block;
+  height: 20px;
+  position: fixed;
+  margin-top: 10px;
+  left: 45vw;
+  background: rgb(17, 0, 128);
+  color: aliceblue;
+  border-radius: 10px;
+}
+
+.translatedTextArea {
+  height: 10vh;
+  width: 30rem;
+  padding: 1rem;
+  background: white;
+  margin: 1rem;
+  margin-top: 5rem;
+  border-radius: 10px;
+  border: 1px black solid;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.TranslateArea {
+  background: yellow;
+  position: absolute;
+  padding: 3vh;
+  top: 30%;
+}
+
+footer {
+  text-align: center;
+  padding: 3vh;
+  border: 10px yellow;
+  background-color: rgb(54, 17, 175);
+  position: absolute;
+  bottom: 5px;
+  height: 2rem;
+  width: 100%;
+  color: aliceblue;
+}
+
+.textAreaToTranslate {
+  height: 10vh;
+  width: 30rem;
+  padding: 1rem;
+
+  margin: 1rem;
+  border-radius: 10px;
+  border: 1px black solid;
+}
